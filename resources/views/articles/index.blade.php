@@ -17,7 +17,7 @@
                         <i class="fa-solid fa-circle-user"></i>
                         {{ $article->user_name }}
                     </h3>
-                    <h5 class="card-title">{{ $article->title }}</h5>
+                    <h4 class="card-title">{{ $article->title }}</h4>
                     <div class="card-subtitle mb-2 text-muted small">
                         {{ $article->created_at->diffForHumans() }}
                     </div>
